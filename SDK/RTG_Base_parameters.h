@@ -1,0 +1,91 @@
+#pragma once
+
+#include "../SDK.h"
+
+// Name: Astroneer-SDK, Version: 1.0.0
+
+#ifdef _MSC_VER
+	#pragma pack(push, 0x8)
+#endif
+
+namespace SDK
+{
+//---------------------------------------------------------------------------
+// Parameters
+//---------------------------------------------------------------------------
+
+// Function RTG_Base.RTG_Base_C.GetBodySlotLegacy
+struct ARTG_Base_C_GetBodySlotLegacy_Params
+{
+	class UChildSlotComponent*                         ReturnValue;                                              // (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData)
+};
+
+// Function RTG_Base.RTG_Base_C.UserConstructionScript
+struct ARTG_Base_C_UserConstructionScript_Params
+{
+};
+
+// Function RTG_Base.RTG_Base_C.ReceiveBeginPlay
+struct ARTG_Base_C_ReceiveBeginPlay_Params
+{
+};
+
+// Function RTG_Base.RTG_Base_C.PlacedInSlot
+struct ARTG_Base_C_PlacedInSlot_Params
+{
+	struct FSlotReference                              Slot;                                                     // (BlueprintVisible, BlueprintReadOnly, Parm)
+	bool                                               FromTool;                                                 // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+	bool                                               SlottedDuringInitialization;                              // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+};
+
+// Function RTG_Base.RTG_Base_C.ReleasedFromSlot
+struct ARTG_Base_C_ReleasedFromSlot_Params
+{
+	bool                                               FromTool;                                                 // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+	bool                                               NewOwner;                                                 // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+};
+
+// Function RTG_Base.RTG_Base_C.DroppedInWorld
+struct ARTG_Base_C_DroppedInWorld_Params
+{
+	class UPrimitiveComponent*                         Component;                                                // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+	bool                                               terrainComponent;                                         // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+	struct FVector                                     Point;                                                    // (ConstParm, BlueprintVisible, BlueprintReadOnly, Parm, OutParm, ReferenceParm, IsPlainOldData)
+	struct FVector                                     Normal;                                                   // (ConstParm, BlueprintVisible, BlueprintReadOnly, Parm, OutParm, ReferenceParm, IsPlainOldData)
+};
+
+// Function RTG_Base.RTG_Base_C.PickedUpFromWorld
+struct ARTG_Base_C_PickedUpFromWorld_Params
+{
+};
+
+// Function RTG_Base.RTG_Base_C.ReceiveHit
+struct ARTG_Base_C_ReceiveHit_Params
+{
+	class UPrimitiveComponent*                         MyComp;                                                   // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+	class AActor*                                      Other;                                                    // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+	class UPrimitiveComponent*                         OtherComp;                                                // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+	bool                                               bSelfMoved;                                               // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+	struct FVector                                     HitLocation;                                              // (BlueprintVisible, BlueprintReadOnly, Parm, IsPlainOldData)
+	struct FVector                                     HitNormal;                                                // (BlueprintVisible, BlueprintReadOnly, Parm, IsPlainOldData)
+	struct FVector                                     NormalImpulse;                                            // (BlueprintVisible, BlueprintReadOnly, Parm, IsPlainOldData)
+	struct FHitResult                                  Hit;                                                      // (ConstParm, BlueprintVisible, BlueprintReadOnly, Parm, OutParm, ReferenceParm, IsPlainOldData)
+};
+
+// Function RTG_Base.RTG_Base_C.ReceiveEndPlay
+struct ARTG_Base_C_ReceiveEndPlay_Params
+{
+	TEnumAsByte<EEndPlayReason>                        EndPlayReason;                                            // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+};
+
+// Function RTG_Base.RTG_Base_C.ExecuteUbergraph_RTG_Base
+struct ARTG_Base_C_ExecuteUbergraph_RTG_Base_Params
+{
+	int                                                EntryPoint;                                               // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+};
+
+}
+
+#ifdef _MSC_VER
+	#pragma pack(pop)
+#endif

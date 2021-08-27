@@ -1,0 +1,108 @@
+#pragma once
+
+#include "../SDK.h"
+
+// Name: Astroneer-SDK, Version: 1.0.0
+
+#ifdef _MSC_VER
+	#pragma pack(push, 0x8)
+#endif
+
+namespace SDK
+{
+//---------------------------------------------------------------------------
+// Parameters
+//---------------------------------------------------------------------------
+
+// Function OGSuit_TitleDummy_AnimBlueprint.OGSuit_TitleDummy_AnimBlueprint_C.EvaluateGraphExposedInputs_ExecuteUbergraph_OGSuit_TitleDummy_AnimBlueprint_AnimGraphNode_ModifyBone_EB91DC244CFF82F02FC85F9F1C2546AC
+struct UOGSuit_TitleDummy_AnimBlueprint_C_EvaluateGraphExposedInputs_ExecuteUbergraph_OGSuit_TitleDummy_AnimBlueprint_AnimGraphNode_ModifyBone_EB91DC244CFF82F02FC85F9F1C2546AC_Params
+{
+};
+
+// Function OGSuit_TitleDummy_AnimBlueprint.OGSuit_TitleDummy_AnimBlueprint_C.EvaluateGraphExposedInputs_ExecuteUbergraph_OGSuit_TitleDummy_AnimBlueprint_AnimGraphNode_TwoWayBlend_11E4652D4ECB97A15AA7728C1DD35F58
+struct UOGSuit_TitleDummy_AnimBlueprint_C_EvaluateGraphExposedInputs_ExecuteUbergraph_OGSuit_TitleDummy_AnimBlueprint_AnimGraphNode_TwoWayBlend_11E4652D4ECB97A15AA7728C1DD35F58_Params
+{
+};
+
+// Function OGSuit_TitleDummy_AnimBlueprint.OGSuit_TitleDummy_AnimBlueprint_C.EvaluateGraphExposedInputs_ExecuteUbergraph_OGSuit_TitleDummy_AnimBlueprint_AnimGraphNode_TwoWayBlend_75FCDCF84699358910A5B78B6E2C7478
+struct UOGSuit_TitleDummy_AnimBlueprint_C_EvaluateGraphExposedInputs_ExecuteUbergraph_OGSuit_TitleDummy_AnimBlueprint_AnimGraphNode_TwoWayBlend_75FCDCF84699358910A5B78B6E2C7478_Params
+{
+};
+
+// Function OGSuit_TitleDummy_AnimBlueprint.OGSuit_TitleDummy_AnimBlueprint_C.EvaluateGraphExposedInputs_ExecuteUbergraph_OGSuit_TitleDummy_AnimBlueprint_AnimGraphNode_TwoWayBlend_9C1154AC4822EF3F1DC351835A466848
+struct UOGSuit_TitleDummy_AnimBlueprint_C_EvaluateGraphExposedInputs_ExecuteUbergraph_OGSuit_TitleDummy_AnimBlueprint_AnimGraphNode_TwoWayBlend_9C1154AC4822EF3F1DC351835A466848_Params
+{
+};
+
+// Function OGSuit_TitleDummy_AnimBlueprint.OGSuit_TitleDummy_AnimBlueprint_C.EvaluateGraphExposedInputs_ExecuteUbergraph_OGSuit_TitleDummy_AnimBlueprint_AnimGraphNode_BlendSpacePlayer_015A89D643766221EBF84F906BC780C0
+struct UOGSuit_TitleDummy_AnimBlueprint_C_EvaluateGraphExposedInputs_ExecuteUbergraph_OGSuit_TitleDummy_AnimBlueprint_AnimGraphNode_BlendSpacePlayer_015A89D643766221EBF84F906BC780C0_Params
+{
+};
+
+// Function OGSuit_TitleDummy_AnimBlueprint.OGSuit_TitleDummy_AnimBlueprint_C.EvaluateGraphExposedInputs_ExecuteUbergraph_OGSuit_TitleDummy_AnimBlueprint_AnimGraphNode_BlendSpacePlayer_9EFC34604C0A252226F02395214E80AC
+struct UOGSuit_TitleDummy_AnimBlueprint_C_EvaluateGraphExposedInputs_ExecuteUbergraph_OGSuit_TitleDummy_AnimBlueprint_AnimGraphNode_BlendSpacePlayer_9EFC34604C0A252226F02395214E80AC_Params
+{
+};
+
+// Function OGSuit_TitleDummy_AnimBlueprint.OGSuit_TitleDummy_AnimBlueprint_C.EvaluateGraphExposedInputs_ExecuteUbergraph_OGSuit_TitleDummy_AnimBlueprint_AnimGraphNode_BlendSpacePlayer_FB5EF6594BDE3777FAA041A4140F9453
+struct UOGSuit_TitleDummy_AnimBlueprint_C_EvaluateGraphExposedInputs_ExecuteUbergraph_OGSuit_TitleDummy_AnimBlueprint_AnimGraphNode_BlendSpacePlayer_FB5EF6594BDE3777FAA041A4140F9453_Params
+{
+};
+
+// Function OGSuit_TitleDummy_AnimBlueprint.OGSuit_TitleDummy_AnimBlueprint_C.EvaluateGraphExposedInputs_ExecuteUbergraph_OGSuit_TitleDummy_AnimBlueprint_AnimGraphNode_BlendSpacePlayer_FBFC2A824B69DD29DAB7648DF8318DD3
+struct UOGSuit_TitleDummy_AnimBlueprint_C_EvaluateGraphExposedInputs_ExecuteUbergraph_OGSuit_TitleDummy_AnimBlueprint_AnimGraphNode_BlendSpacePlayer_FBFC2A824B69DD29DAB7648DF8318DD3_Params
+{
+};
+
+// Function OGSuit_TitleDummy_AnimBlueprint.OGSuit_TitleDummy_AnimBlueprint_C.EvaluateGraphExposedInputs_ExecuteUbergraph_OGSuit_TitleDummy_AnimBlueprint_AnimGraphNode_TwoWayBlend_114DE63340B620E43DAE2E8BDB5E59D7
+struct UOGSuit_TitleDummy_AnimBlueprint_C_EvaluateGraphExposedInputs_ExecuteUbergraph_OGSuit_TitleDummy_AnimBlueprint_AnimGraphNode_TwoWayBlend_114DE63340B620E43DAE2E8BDB5E59D7_Params
+{
+};
+
+// Function OGSuit_TitleDummy_AnimBlueprint.OGSuit_TitleDummy_AnimBlueprint_C.EvaluateGraphExposedInputs_ExecuteUbergraph_OGSuit_TitleDummy_AnimBlueprint_AnimGraphNode_TransitionResult_3CA8A9494D21BB2C569B13B2FEE5763D
+struct UOGSuit_TitleDummy_AnimBlueprint_C_EvaluateGraphExposedInputs_ExecuteUbergraph_OGSuit_TitleDummy_AnimBlueprint_AnimGraphNode_TransitionResult_3CA8A9494D21BB2C569B13B2FEE5763D_Params
+{
+};
+
+// Function OGSuit_TitleDummy_AnimBlueprint.OGSuit_TitleDummy_AnimBlueprint_C.EvaluateGraphExposedInputs_ExecuteUbergraph_OGSuit_TitleDummy_AnimBlueprint_AnimGraphNode_BlendSpacePlayer_01AC3E6F49E8B411A632CE81C26F6109
+struct UOGSuit_TitleDummy_AnimBlueprint_C_EvaluateGraphExposedInputs_ExecuteUbergraph_OGSuit_TitleDummy_AnimBlueprint_AnimGraphNode_BlendSpacePlayer_01AC3E6F49E8B411A632CE81C26F6109_Params
+{
+};
+
+// Function OGSuit_TitleDummy_AnimBlueprint.OGSuit_TitleDummy_AnimBlueprint_C.EvaluateGraphExposedInputs_ExecuteUbergraph_OGSuit_TitleDummy_AnimBlueprint_AnimGraphNode_TransitionResult_13028E614EF41B195DD097BD3AE7E374
+struct UOGSuit_TitleDummy_AnimBlueprint_C_EvaluateGraphExposedInputs_ExecuteUbergraph_OGSuit_TitleDummy_AnimBlueprint_AnimGraphNode_TransitionResult_13028E614EF41B195DD097BD3AE7E374_Params
+{
+};
+
+// Function OGSuit_TitleDummy_AnimBlueprint.OGSuit_TitleDummy_AnimBlueprint_C.EvaluateGraphExposedInputs_ExecuteUbergraph_OGSuit_TitleDummy_AnimBlueprint_AnimGraphNode_TransitionResult_9D9881DD4CAF08EF7EDF669F076E3A1E
+struct UOGSuit_TitleDummy_AnimBlueprint_C_EvaluateGraphExposedInputs_ExecuteUbergraph_OGSuit_TitleDummy_AnimBlueprint_AnimGraphNode_TransitionResult_9D9881DD4CAF08EF7EDF669F076E3A1E_Params
+{
+};
+
+// Function OGSuit_TitleDummy_AnimBlueprint.OGSuit_TitleDummy_AnimBlueprint_C.EvaluateGraphExposedInputs_ExecuteUbergraph_OGSuit_TitleDummy_AnimBlueprint_AnimGraphNode_TransitionResult_70764EA14964FECC4FEFCAA84E18AA42
+struct UOGSuit_TitleDummy_AnimBlueprint_C_EvaluateGraphExposedInputs_ExecuteUbergraph_OGSuit_TitleDummy_AnimBlueprint_AnimGraphNode_TransitionResult_70764EA14964FECC4FEFCAA84E18AA42_Params
+{
+};
+
+// Function OGSuit_TitleDummy_AnimBlueprint.OGSuit_TitleDummy_AnimBlueprint_C.EvaluateGraphExposedInputs_ExecuteUbergraph_OGSuit_TitleDummy_AnimBlueprint_AnimGraphNode_TransitionResult_7A018CE3432D365E2E48938C23C1B6FE
+struct UOGSuit_TitleDummy_AnimBlueprint_C_EvaluateGraphExposedInputs_ExecuteUbergraph_OGSuit_TitleDummy_AnimBlueprint_AnimGraphNode_TransitionResult_7A018CE3432D365E2E48938C23C1B6FE_Params
+{
+};
+
+// Function OGSuit_TitleDummy_AnimBlueprint.OGSuit_TitleDummy_AnimBlueprint_C.BlueprintUpdateAnimation
+struct UOGSuit_TitleDummy_AnimBlueprint_C_BlueprintUpdateAnimation_Params
+{
+	float                                              DeltaTimeX;                                               // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+};
+
+// Function OGSuit_TitleDummy_AnimBlueprint.OGSuit_TitleDummy_AnimBlueprint_C.ExecuteUbergraph_OGSuit_TitleDummy_AnimBlueprint
+struct UOGSuit_TitleDummy_AnimBlueprint_C_ExecuteUbergraph_OGSuit_TitleDummy_AnimBlueprint_Params
+{
+	int                                                EntryPoint;                                               // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+};
+
+}
+
+#ifdef _MSC_VER
+	#pragma pack(pop)
+#endif

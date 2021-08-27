@@ -1,0 +1,76 @@
+
+#include "../SDK.h"
+
+// Name: Astroneer-SDK, Version: 1.0.0
+
+#ifdef _MSC_VER
+	#pragma pack(push, 0x8)
+#endif
+
+namespace SDK
+{
+//---------------------------------------------------------------------------
+// Functions
+//---------------------------------------------------------------------------
+
+// Function SeedSlot.SeedSlot_C.SaveGameFixup
+// (Public, BlueprintCallable, BlueprintEvent)
+
+void ASeedSlot_C::SaveGameFixup()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function SeedSlot.SeedSlot_C.SaveGameFixup");
+
+	ASeedSlot_C_SaveGameFixup_Params params;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+// Function SeedSlot.SeedSlot_C.Get Parent
+// (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
+// Parameters:
+// class AActor*                  Actor                          (Parm, OutParm, ZeroConstructor, IsPlainOldData)
+
+void ASeedSlot_C::Get_Parent(class AActor** Actor)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function SeedSlot.SeedSlot_C.Get Parent");
+
+	ASeedSlot_C_Get_Parent_Params params;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+
+	if (Actor != nullptr)
+		*Actor = params.Actor;
+}
+
+
+// Function SeedSlot.SeedSlot_C.UserConstructionScript
+// (Event, Public, BlueprintCallable, BlueprintEvent)
+
+void ASeedSlot_C::UserConstructionScript()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function SeedSlot.SeedSlot_C.UserConstructionScript");
+
+	ASeedSlot_C_UserConstructionScript_Params params;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+}
+
+#ifdef _MSC_VER
+	#pragma pack(pop)
+#endif
